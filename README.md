@@ -7,7 +7,7 @@ To simulate an optical communication system using OptiPerformer, observe the eff
 
 ---
 
-# **Tools Required**
+## **Tools Required**
 
 1. **Computer/Laptop**
    – Windows OS (OptiPerformer supported versions)
