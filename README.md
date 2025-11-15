@@ -1,31 +1,42 @@
 
 ## Exp 6 Simulation of Optical Communication System
-## Introduction to OptiPerformer 
-## Objective
-Download and install OptiPerformer software on your computer and run a sample file.
+
+## Aim
+
+To simulate an optical communication system using OptiPerformer, observe the effect of fiber length on received power, Q-factor, BER, and eye diagram, and analyze system performance across increasing transmission distances.
 
 ---
 
-## Overview
+# **Tools Required**
 
-Optiwave introduces **OptiPerformer**, a free photonic design automation tool that harnesses the full power of OptiSystem and creates specific dynamic design scenarios for student use.
+1. **Computer/Laptop**
+   – Windows OS (OptiPerformer supported versions)
 
-In this exercise, you will:
-- Download and install OptiPerformer on your PC/laptop.
-- Use your license to load and run OptiSystem simulations prepared for this course.
+2. **OptiPerformer Software**
+   – Installed from Optiwave (free)
 
-The first simulation file (`Introduction_OptiPerformer.osp`) models a basic fiber optic system consisting of:
-- A transmitter
-- A fiber
-- A receiver
+3. **Simulation File**
+   – `Introduction_OptiPerformer.osp`
 
-The system includes:
-- An optical power meter at the receiver input (fiber output)
-- A Bit Error Rate (BER) analyzer
+4. **Internet Connection**
+   – For downloading the software (not required after installation)
+
+5. **Basic Optical System Components (within the software):**
+
+   * PRBS/Binary Source
+   * Electrical Pulse Generator
+   * Laser Diode
+   * External Modulator
+   * Optical Fiber
+   * Optical Power Meter
+   * Photodiode
+   * Low-Pass Filter
+   * Decision Circuit
+   * BER Analyzer
 
 ---
 
-## Instructions
+## Procedure
 
 1. Download and install OptiPerformer from [optiwave.com](https://optiwave.com).  
 2. Copy the `Introduction_OptiPerformer.osp` file to your PC.  
@@ -54,15 +65,6 @@ The system includes:
 8. The simulation runs 5 iterations with fiber length varying from 50 to 150 km.  
    - Use forward/reverse buttons to step through iterations.  
    - Observe changes in received power, BER, Q factor, and eye diagram.
-
----
-
-## Report
-
-1. Cover sheet (as per attached example).  
-2. Tabulation of received power, Q factor, and BER for 5 fiber lengths.  
-3. Plot of received power, Q factor, and BER vs. fiber length.  
-4. Description of eye diagram changes with increasing fiber length.
 
 ---
 
