@@ -4,7 +4,6 @@
 ## Aim
 
 To simulate an optical communication system using OptiPerformer, observe the effect of fiber length on received power, Q-factor, BER, and eye diagram, and analyze system performance across increasing transmission distances.
-
 ---
 
 ## **Tools Required**
